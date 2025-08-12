@@ -26,6 +26,22 @@ let stringNumber = String(number);
 console.log(stringNumber);
 console.log(typeof stringNumber);
 
+//**********************Operations*********************** 
+
+let value =3
+let negvalue = -value
+console.log(negvalue);
+
+let String1 ="hEllo"
+let String2 = " Tanu"
+let Str = String1+String2
+console.log(Str);
+
+console.log("3"+3+2);
+console.log(3+4+"3");
+
+
+
 
 
 
