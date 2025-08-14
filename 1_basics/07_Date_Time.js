@@ -25,5 +25,15 @@ let myTimeStamp = Date.now();
 console.log(myTimeStamp);
 console.log(MycreatedDate.getTime());//milisec
 
+console.log(Math.floor(Date.now()/1000));//convert into seconds
+
+let newDate = new Date()
+console.log(newDate.getDay());
+
+console.log(newDate.toLocaleString('default',{
+    weekday: "long",
+    
+}))
+
 
 
