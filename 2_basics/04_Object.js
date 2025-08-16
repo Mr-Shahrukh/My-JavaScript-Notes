@@ -43,5 +43,30 @@ console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty("isLoggedIn"));//it check if key is awilable or not
 
+const course = {
+    coursename: "JavScript",
+    price: "3999",
+    courseInstructor: "Prasad"
+}
+
+// course.courseInstructor//
+
+const {courseInstructor: instructor} = course//courseInstructor: instructor//rename
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
 
 
